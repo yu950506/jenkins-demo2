@@ -9,4 +9,8 @@ public class Demo {
     public String test() {
         return "Hello Jenkins!";
     }
+    @GetMapping("test2")
+    public String test2() {
+        return "Hello Jenkins2!";
+    }
 }
